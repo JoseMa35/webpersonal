@@ -2,8 +2,13 @@
 
 {% block title %}Home{% endblock %}
 
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block headers %}              
+<h1>Jose Castillo</h1>
+<span class="subheading">Ingeniero Industrial</span>
+{% endblock %}
+
 {% block content %}
-<h2>Portada</h2>
-    
-<p>Bienvenido(a) a mi pagina personal.</p>
+
 {% endblock %}
